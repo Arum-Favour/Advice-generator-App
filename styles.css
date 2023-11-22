@@ -1,52 +1,67 @@
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Manrope", sans-serif;
-  background-color: hsl(218, 23%, 16%);
-}
-main {
-  margin: auto;
-  padding: 0;
-  background-color: hsl(217, 19%, 24%);
-  width: 30%;
-  height: 60%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  gap: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-#advice-content {
-  background-color: aquamarine;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 90%;
-  height: 50%;
-  text-align: center;
-}
-#adviceText {
-    color:  hsl(193, 38%, 86%);
-  font-size: 28px;
-  font-weight: 800;
-}
-#adviceId{
-   color:  hsl(150, 100%, 66%);
-}
-#pattern-divider{
-    width: 80%;
-    height: fit-content;
-}
-#pattern-divider img{
+@media (min-width: 851px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    background-color: hsl(218, 23%, 16%);
+  }
+  main {
+    margin: auto;
+    padding: 0;
+    background-color: hsl(217, 19%, 24%);
+    width: 30%;
+    height: 70%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 30px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #advice-content {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 60%;
+    text-align: center;
+  }
+  #adviceText {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    /* font-weight: 800; */
+  }
+  #textCon {
     width: 100%;
     height: fit-content;
-}
-#diceImg{
+  }
+  #adId {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+  }
+  .adviceId,
+  .adviceId2 {
+    width: fit-content;
+    height: fit-content;
+    color: hsl(150, 100%, 66%);
+  }
+  #pattern-divider {
+    width: 80%;
+    height: fit-content;
+  }
+  #pattern-divider img {
+    width: 100%;
+    height: fit-content;
+  }
+  #diceImg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,9 +69,10 @@ main {
     height: 50px;
     border-radius: 50%;
     position: absolute;
-    top: 90%;
+    top: 95%;
     background-color: hsl(150, 100%, 66%);
-}
-#diceImg:hover{
+  }
+  #diceImg:hover {
     cursor: pointer;
+  }
 }
