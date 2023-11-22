@@ -25,7 +25,7 @@
   #advice-content {
     /* background-color: aquamarine; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     flex-direction: column;
     width: 90%;
@@ -35,7 +35,7 @@
   #adviceText {
     color: hsl(193, 38%, 86%);
     font-size: 28px;
-    /* font-weight: 800; */
+    font-weight: bold;
   }
   #textCon {
     width: 100%;
@@ -69,7 +69,7 @@
     height: 50px;
     border-radius: 50%;
     position: absolute;
-    top: 95%;
+    top: 92%;
     background-color: hsl(150, 100%, 66%);
   }
   #diceImg:hover {
@@ -89,7 +89,7 @@
     padding: 0;
     background-color: hsl(217, 19%, 24%);
     width: 80%;
-    height: 60%;
+    height: 50%;
     border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -103,7 +103,7 @@
   }
   #advice-content {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     flex-direction: column;
     width: 90%;
@@ -112,7 +112,8 @@
   }
   #adviceText {
     color: hsl(193, 38%, 86%);
-    font-size: 28px;
+    font-size: 20px;
+    font-weight: bold;
   }
   #textCon {
     width: 100%;
