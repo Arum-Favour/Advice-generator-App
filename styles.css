@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218, 23%, 16%);
+}
+main {
+  margin: auto;
+  padding: 0;
+  background-color: hsl(217, 19%, 24%);
+  width: 30%;
+  height: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#advice-content {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: 50%;
+  text-align: center;
+}
+#adviceText {
+    color:  hsl(193, 38%, 86%);
+  font-size: 28px;
+  font-weight: 800;
+}
+#adviceId{
+   color:  hsl(150, 100%, 66%);
+}
+#pattern-divider{
+    width: 80%;
+    height: fit-content;
+}
+#pattern-divider img{
+    width: 100%;
+    height: fit-content;
+}
+#diceImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 90%;
+    background-color: hsl(150, 100%, 66%);
+}
+#diceImg:hover{
+    cursor: pointer;
+}
