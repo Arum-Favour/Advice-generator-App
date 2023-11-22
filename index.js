@@ -6,5 +6,6 @@ async function printAdvice() {
   const word = await response.json();
   advice.innerHTML =  word.slip.advice;
   adviceId.innerHTML = word.slip.id;
-  console.log(word.slip.advice);
+//   console.log(word.slip.advice);
 }
+
